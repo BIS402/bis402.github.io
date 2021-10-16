@@ -25,6 +25,7 @@ $ cp themes/minimal/exampleSite/config.toml .
 * Note that if you are cloning this repo, then you only do the following from the CLI:
 
 ```
+$ git submodule init
 $ git submodule update
 ```
 
