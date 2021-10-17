@@ -18,8 +18,9 @@ jobs:
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: '0.85.0'
-      - name: Get hugo-theme-codex
+      - name: Get hugo-theme-codex theme
         run: git submodule add https://github.com/jakewies/hugo-theme-codex.git themes/hugo-theme-codex
+      - name: Update theme submodule
         run: git submodule update --init
       - name: Build
         run: hugo --minify
