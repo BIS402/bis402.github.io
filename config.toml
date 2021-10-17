@@ -2,9 +2,9 @@
 theme = "hugo-theme-codex" 
 
 # Override these settings with your own
-title = "codex"
+title = "BIS 402"
 languageCode = "en-us"
-baseURL = "https://example.org/"
+baseURL = "https://bis402.github.io/"
 copyright = "© {year}"
 
 # Add your Disqus shortname here.
