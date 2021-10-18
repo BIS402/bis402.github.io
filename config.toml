@@ -1,4 +1,4 @@
-git submodule add https://github.com/jakewies/hugo-theme-codex.git themes/hugo-theme-codex# DO NOT REMOVE THIS
+# DO NOT REMOVE THIS
 theme = "hugo-theme-codex"
 
 # Override these settings with your own
