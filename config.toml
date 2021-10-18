@@ -1,3 +1,5 @@
+themesDir = "../.."
+
 # DO NOT REMOVE THIS
 theme = "hugo-theme-codex"
 
