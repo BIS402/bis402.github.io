@@ -1,7 +1,3 @@
-[module]
-[[module.imports]]
-  path = 'github.com/jakewies/hugo-theme-codex'
-
 # DO NOT REMOVE THIS
 theme = "hugo-theme-codex"
 
