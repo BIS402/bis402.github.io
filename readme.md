@@ -10,12 +10,6 @@ $ git submodule init
 $ git submodule update
 ```
 
-* Now you can get updates to Minimal in the future by updating the submodule:
-
-```
-$ git submodule update --remote themes/minimal
-```
-
 * To get started, copy the `config.toml` file inside `exampleSite` to the root of your Hugo site:
 
 ```
