@@ -1,6 +1,5 @@
 # DO NOT REMOVE THIS
-# theme = "hugo-theme-codex"
-theme = "https://github.com/jakewies/hugo-theme-codex"
+theme = "hugo-theme-codex"
 
 # Override these settings with your own
 title = "BIS 402"
