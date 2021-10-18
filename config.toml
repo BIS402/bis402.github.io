@@ -1,4 +1,4 @@
-# DO NOT REMOVE THIS
+git submodule add https://github.com/jakewies/hugo-theme-codex.git themes/hugo-theme-codex# DO NOT REMOVE THIS
 theme = "hugo-theme-codex"
 
 # Override these settings with your own
@@ -20,8 +20,8 @@ copyright = "© {year}"
   dateFormat = "Jan 2 2006"
 
   # Links to your social accounts, comment/uncomment as needed. Icons will be displayed for those specified.
-  twitter = "https://twitter.com/<your handle>"
-  github = "https://github.com/<your handle>"
+  twitter = "https://twitter.com/m2web"
+  github = "https://github.com/BIS402"
   # email = "mailto:<your email>"
   # mastodon = "https://mastodon.social/@nickname"
   # facebook = "https://facebook.com/<your handle>"
