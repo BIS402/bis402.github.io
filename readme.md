@@ -1,7 +1,7 @@
 # NKU BIS 402 Course Repository
 
 * First, the hugo new site quickstart guide: https://gohugo.io/getting-started/quickstart/
-* Next, added the theme from https://github.com/calintat/minimal 
+* Next, added the theme from https://github.com/jakewies/hugo-theme-codex
 * Then, from the root of your Hugo site, type the following:
 
 ```
