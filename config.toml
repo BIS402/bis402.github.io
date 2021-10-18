@@ -69,8 +69,3 @@ copyright = "© {year}"
 
 [params.colors]
     fancy = "#FFD700"
-    
-[module]
-[[module.imports]]
-  path = 'github.com/jakewies/hugo-theme-codex'
-
