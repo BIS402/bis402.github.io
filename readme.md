@@ -25,7 +25,7 @@ git submodule update
 
 * Next, make updates to the `config.toml` file in the root of your Hugo site using the theme's exampleSite/config.toml file:
 
-```yaml
+```toml
 # DO NOT REMOVE THIS
 theme = "hugo-theme-codex"
 
