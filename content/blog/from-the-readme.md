@@ -1,7 +1,7 @@
 ---
 title: "From the Readme"
 date: 2021-10-20T17:12:26-04:00
-draft: true
+draft: false
 ---
 
 It is fitting that the first post in this blog is a from the readme.md file that was created from the research of getting this blog up and running on GitHub Pages.
