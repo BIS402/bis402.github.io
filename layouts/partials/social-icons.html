@@ -12,7 +12,8 @@
         target="_blank"
         rel="me noopener"
       >
-        <div class="social-icons__icon" style="background-image: url('{{print "static/svg/" $icon ".svg" | absURL}}')"></div>
+        <!-- To display the SVG files on Netlify, you need to include the static folder at the root ex: print "static/svg/"-->
+        <div class="social-icons__icon" style="background-image: url('{{print "svg/" $icon ".svg" | absURL}}')"></div>
       </a>
     {{ end }}
   {{ end }}   
