@@ -150,6 +150,6 @@ git push
 
 * After this, I noted that the GitHub Pages site was only displaying a site link and the readme.md file content. Again, after many trials and tribulations I then updated the GitHub Pages settings Source branch to gh-pages and pointing to the root folder:
 <!-- markdown image -->
-![GitHub Pages settings Source branch](/static/images/git-pages-source-branch.png)
+![GitHub Pages settings Source branch](images/git-pages-source-branch.png)
 
 * Finally, the site displayed correctly!
