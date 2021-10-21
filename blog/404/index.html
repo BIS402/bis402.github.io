@@ -17,7 +17,7 @@
 <meta name=keywords content="NKU,Northern Kentucky University,BIS 402,Programming for E-Business">
 <link type=text/css rel=stylesheet href=/css/post.min.c5add25d085ddb1cc7e7a5ff301594eae1551e02ebc1796214f532aa7d639c9c.css integrity="sha256-xa3SXQhd2xzH56X/MBWU6uFVHgLrwXliFPUyqn1jnJw=">
 <link type=text/css rel=stylesheet href=/css/custom.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css integrity="sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=">
-<script type=application/ld+json>{"@context":"http://schema.org","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/bis402.github.io\/"},"articleSection":"blog","name":"Overriding the Theme 404 Page","headline":"Overriding the Theme 404 Page","description":"","inLanguage":"en-US","author":"","creator":"","publisher":"","accountablePerson":"","copyrightHolder":"","copyrightYear":"2021","datePublished":"2021-10-21 05:39:14 -0400 -0400","dateModified":"2021-10-21 05:39:14 -0400 -0400","url":"https:\/\/bis402.github.io\/blog\/404\/","wordCount":"186","keywords":["Blog"]}</script>
+<script type=application/ld+json>{"@context":"http://schema.org","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/bis402.github.io\/"},"articleSection":"blog","name":"Overriding the Theme 404 Page","headline":"Overriding the Theme 404 Page","description":"","inLanguage":"en-US","author":"","creator":"","publisher":"","accountablePerson":"","copyrightHolder":"","copyrightYear":"2021","datePublished":"2021-10-21 05:39:14 -0400 -0400","dateModified":"2021-10-21 05:39:14 -0400 -0400","url":"https:\/\/bis402.github.io\/blog\/404\/","wordCount":"247","keywords":["Blog"]}</script>
 </head>
 <body>
 <div class=burger__container>
@@ -67,6 +67,15 @@
 <p>After viewing the page in the browser, I noticed that the text displayed to the user was too large. I updated the text via changing the header tag size to <code>h2</code>.</p>
 <p><img src=images/diff1.png alt="Diff Image"></p>
 <p>I then committed the changes to the <code>404.html</code> file and pushed the changes to the <code>main</code> branch. After the GitHub Action completed the build, I was able to see the changes reflected in the browser.</p>
+<p>Then, after that I made another change to the <code>404.html</code> file. I added an H1 tag to the top of the page and changed the H2 tag to an H3 tag.</p>
+<pre><code class=language-html>&lt;article&gt;
+  &lt;h1&gt;Oops! 404&lt;/h1&gt;
+  &lt;h3&gt;
+    This is not the page you were looking for...move along (by selecting the about or blog 
+    link to the left or the menu above).
+  &lt;/h3&gt;
+&lt;/article&gt;
+</code></pre>
 </article>
 <div class=pagination>
 <a class=pagination__item href=https://bis402.github.io/blog/from-the-readme/>
