@@ -1,8 +1,9 @@
 ---
 title: "Publishing Your Hugo Site on Netlify"
-date: 2021-10-24T18:50:26-04:00
-draft: true
+date: 2021-10-24T19:06:57-04:00
+draft: false
 ---
+
 
 You have a Hugo site created and also have a GitHub repository for the
 site. Now, you can deploy the site for free via Netlify.
