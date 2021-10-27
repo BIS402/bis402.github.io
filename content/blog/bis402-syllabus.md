@@ -1,9 +1,8 @@
 ---
-title: "BIS 402: Programming For E-Business"
+title: "BIS 402: Programming For E-Business Syllabus"
 date: 2021-10-26T22:01:55-04:00
 draft: false
 ---
-
 
 | Course number and section: | Room Number:         | Class Day and Time: |
 |----------------------------|----------------------|---------------------|
