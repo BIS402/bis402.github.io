@@ -33,3 +33,17 @@ After viewing the page in the browser, I noticed that the text displayed to the 
 ![Diff Image](images/diff1.png)
 
 I then committed the changes to the `404.html` file and pushed the changes to the `main` branch. After the GitHub Action completed the build, I was able to see the changes reflected in the browser.
+
+Then, after that I made another change to the `404.html` file. I added an H1 tag to the top of the page and changed the H2 tag to an H3 tag.  
+
+```html
+<article>
+  <h1>Oops! 404</h1>
+  <h3>
+    This is not the page you were looking for...move along (by selecting the about or blog 
+    link to the left or the menu above).
+  </h3>
+</article>
+```
+
+Again, I pushed the changes to the remote `main` branch and GitHub Action completed the build.
