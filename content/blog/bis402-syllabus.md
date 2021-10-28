@@ -7,7 +7,6 @@ draft: false
 | Course number and section: | Room Number:         | Class Day and Time: |
 |----------------------------|----------------------|---------------------|
 | BIS402-001                 | Online               | Online              |
-|                            |                      |                     |
 | **Instructor**             | Mark McFadden        |                     |
 | **E-mail**                 | <mcfaddenm1@nku.edu> |                     |
 | **URL**                    | <https://m2.fyi>     |                     |
